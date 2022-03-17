@@ -1,0 +1,13 @@
+s=input()
+l=list(s)
+res=[]
+for i in l:
+  i=int(i)
+  if i%2==0:
+     if i not in res:
+        res.append(i)
+     else:
+       print(i,end=")
+ print('',end=")
+ for i in res:
+   print(i,end=")
